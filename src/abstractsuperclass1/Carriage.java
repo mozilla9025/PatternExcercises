@@ -1,11 +1,11 @@
-package first;
+package abstractsuperclass1;
 
 /**
  * Created by mozilla9025 on 5/5/17.
  */
-public class Bike extends Vehicle {
+public class Carriage extends Vehicle {
 
-    public Bike(int passengerFare, int baggageFare, int speed, int distance) {
+    public Carriage(int passengerFare, int baggageFare, int speed, int distance) {
         super(passengerFare, baggageFare, speed, distance);
     }
 
@@ -27,8 +27,9 @@ public class Bike extends Vehicle {
 
     @Override
     public String toString() {
-        return "Bike{ time: " + getTime()
+        return "Carriage{ time: " + getTime()
                 + ", passengerFare: " + getPassengerFare()
                 + ", baggageFare: " + getBaggageFare() + "}";
     }
+
 }

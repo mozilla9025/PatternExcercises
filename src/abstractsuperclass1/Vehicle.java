@@ -1,8 +1,8 @@
-package first;
+package abstractsuperclass1;
 
 /**
  * Created by mozilla9025 on 5/5/17.
- * Used abstract superclass adapter
+ * Used abstract superclass pattern
  */
 public abstract class Vehicle {
 

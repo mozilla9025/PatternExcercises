@@ -1,4 +1,4 @@
-package second;
+package chainofresp2;
 
 /**
  * Created by Sergey on 08.05.2017.
