@@ -5,7 +5,6 @@ package compositor3;
  */
 public class Student extends Learner {
 
-
     @Override
     void learn() {
         studyingMethodList.forEach(l -> System.out.println("Student: " + l.teach()));

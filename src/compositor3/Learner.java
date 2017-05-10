@@ -9,7 +9,6 @@ import java.util.List;
 public abstract class Learner{
     protected List<StudyingMethod> studyingMethodList = new ArrayList<>();
 
-
     public void addMethod(StudyingMethod method){
         studyingMethodList.add(method);
     }

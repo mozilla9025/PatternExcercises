@@ -6,6 +6,7 @@ package compositor3;
 public class Main {
 
     public static void main(String[] args) {
+
         StudyingMethod reading = new Reading();
 
         Learner student = new Student();
